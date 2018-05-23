@@ -27,94 +27,94 @@ app.cfg = {
   BOOKMARKS: false,
   BOOKMARKS_ALIAS: "Zoom",
 
-	COLOR_ORDER: "maroon, teal, gold, orange, red, purple, blue, cyan",
-
-  COLOR_SCHEMES: [{
-      name: "maroon",
-      color: "#ffffff"
-    },
-    {
-      name: "teal",
-      color: "#ffffff"
-    },
-    {
-      name: "gold",
-      color: "#ffffff"
-    },
-    {
-      name: "orange",
-      color: "#874094"
-    },
-    {
-      name: "red",
-      color: "#000000"
-    },
-    {
-      name: "purple",
-      color: "#dc6800"
-    },
-    {
-      name: "blue",
-      color: "#dab70c"
-    },
-    {
-      name: "cyan",
-      color: "#A67455"
-    }
-  ],
-
-	// COLOR_ORDER: "green,red,blue,purple,black,brown,orange,yellow",
+	// COLOR_ORDER: "maroon, teal, gold, orange, red, purple, blue, cyan",
 	//
   // COLOR_SCHEMES: [{
-  //     name: "blue",
-  //     color: "#425dac"
+  //     name: "maroon",
+  //     color: "#ffffff"
   //   },
   //   {
-  //     name: "red",
-  //     color: "#b82323"
+  //     name: "teal",
+  //     color: "#ffffff"
   //   },
   //   {
-  //     name: "green",
-  //     color: "#37921e"
-  //   },
-  //   {
-  //     name: "purple",
-  //     color: "#874094"
-  //   },
-  //   {
-  //     name: "black",
-  //     color: "#000000"
+  //     name: "gold",
+  //     color: "#ffffff"
   //   },
   //   {
   //     name: "orange",
+  //     color: "#874094"
+  //   },
+  //   {
+  //     name: "red",
+  //     color: "#000000"
+  //   },
+  //   {
+  //     name: "purple",
   //     color: "#dc6800"
   //   },
   //   {
-  //     name: "yellow",
+  //     name: "blue",
   //     color: "#dab70c"
   //   },
   //   {
-  //     name: "brown",
+  //     name: "cyan",
   //     color: "#A67455"
   //   }
   // ],
 
-  NUMBERED: true,
+	COLOR_ORDER: "red,green,blue,purple,black,brown,orange,yellow",
+
+  COLOR_SCHEMES: [{
+      name: "blue",
+      color: "#425dac"
+    },
+    {
+      name: "red",
+      color: "#b82323"
+    },
+    {
+      name: "green",
+      color: "#fff"
+    },
+    {
+      name: "purple",
+      color: "#874094"
+    },
+    {
+      name: "black",
+      color: "#000000"
+    },
+    {
+      name: "orange",
+      color: "#dc6800"
+    },
+    {
+      name: "yellow",
+      color: "#dab70c"
+    },
+    {
+      name: "brown",
+      color: "#A67455"
+    }
+  ],
+
+  NUMBERED: false,
   FILTER_BY_EXTENT: false, //When false, bad on iPhone
 
   ICON_SRC: "resources/tpl/viewer/icons/staticIcon/circle.png",
   ICON_SIZE: {
     TINY: {
+      X: 15,
+      Y: 15
+    },
+    MEDIUM: {
       X: 20,
       Y: 20
     },
-    MEDIUM: {
-      X: 25,
-      Y: 25
-    },
     LARGE: {
-      X: 35,
-      Y: 35
+      X: 30,
+      Y: 30
     }
   },
 
