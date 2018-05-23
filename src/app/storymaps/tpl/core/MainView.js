@@ -2096,6 +2096,12 @@ define(["lib-build/css!./MainView",
 				large: new iconSpecs(44,48,9,20)
 			},
 
+			// this.lutIconSpecs= {
+			// 	large: new iconSpecs(30,30,0,0),
+			// 	large: new iconSpecs(30,30,0,0),
+			// 	large: new iconSpecs(30,30,0,0)
+			// },
+
 			this.prepareMobileViewSwitch = function()
 			{
 				//
