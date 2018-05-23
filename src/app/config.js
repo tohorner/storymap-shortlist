@@ -27,77 +27,77 @@ app.cfg = {
   BOOKMARKS: false,
   BOOKMARKS_ALIAS: "Zoom",
 
-	// COLOR_ORDER: "maroon, teal, gold, orange, red, purple, blue, cyan",
-	//
-  // COLOR_SCHEMES: [{
-  //     name: "maroon",
-  //     color: "#ffffff"
-  //   },
-  //   {
-  //     name: "teal",
-  //     color: "#ffffff"
-  //   },
-  //   {
-  //     name: "gold",
-  //     color: "#ffffff"
-  //   },
-  //   {
-  //     name: "orange",
-  //     color: "#874094"
-  //   },
-  //   {
-  //     name: "red",
-  //     color: "#000000"
-  //   },
-  //   {
-  //     name: "purple",
-  //     color: "#dc6800"
-  //   },
-  //   {
-  //     name: "blue",
-  //     color: "#dab70c"
-  //   },
-  //   {
-  //     name: "cyan",
-  //     color: "#A67455"
-  //   }
-  // ],
-
-	COLOR_ORDER: "red,green,blue,purple,black,brown,orange,yellow",
+	COLOR_ORDER: "maroon, teal, gold, orange, red, purple, blue, cyan",
 
   COLOR_SCHEMES: [{
-      name: "blue",
-      color: "#425dac"
+      name: "maroon",
+      color: "#990033"
     },
     {
-      name: "red",
-      color: "#b82323"
+      name: "teal",
+      color: "#006666"
     },
     {
-      name: "green",
-      color: "#fff"
-    },
-    {
-      name: "purple",
-      color: "#874094"
-    },
-    {
-      name: "black",
-      color: "#000000"
+      name: "gold",
+      color: "#ffcc33"
     },
     {
       name: "orange",
-      color: "#dc6800"
+      color: "#ff6633"
     },
     {
-      name: "yellow",
-      color: "#dab70c"
+      name: "red",
+      color: "#cc3333"
     },
     {
-      name: "brown",
-      color: "#A67455"
+      name: "purple",
+      color: "#990099"
+    },
+    {
+      name: "blue",
+      color: "#003399"
+    },
+    {
+      name: "cyan",
+      color: "#66cccc"
     }
   ],
+
+	// COLOR_ORDER: "red,green,blue,purple,black,brown,orange,yellow",
+	//
+  // COLOR_SCHEMES: [{
+  //     name: "blue",
+  //     color: "#425dac"
+  //   },
+  //   {
+  //     name: "red",
+  //     color: "#b82323"
+  //   },
+  //   {
+  //     name: "green",
+  //     color: "#fff"
+  //   },
+  //   {
+  //     name: "purple",
+  //     color: "#874094"
+  //   },
+  //   {
+  //     name: "black",
+  //     color: "#000000"
+  //   },
+  //   {
+  //     name: "orange",
+  //     color: "#dc6800"
+  //   },
+  //   {
+  //     name: "yellow",
+  //     color: "#dab70c"
+  //   },
+  //   {
+  //     name: "brown",
+  //     color: "#A67455"
+  //   }
+  // ],
 
   NUMBERED: false,
   FILTER_BY_EXTENT: false, //When false, bad on iPhone
