@@ -23,6 +23,7 @@ app.cfg = {
   //
   // Shortlist
   //
+
   BOOKMARKS: false,
   BOOKMARKS_ALIAS: "Zoom",
 
@@ -30,39 +31,39 @@ app.cfg = {
 
   COLOR_SCHEMES: [{
       name: "maroon",
-      color: "#ffffff"
+      color: "#990033"
     },
     {
       name: "teal",
-      color: "#ffffff"
+      color: "#006666"
     },
     {
       name: "gold",
-      color: "#ffffff"
+      color: "#ffcc33"
     },
     {
       name: "orange",
-      color: "#874094"
+      color: "#ff6633"
     },
     {
       name: "red",
-      color: "#000000"
+      color: "#cc3333"
     },
     {
       name: "purple",
-      color: "#dc6800"
+      color: "#990099"
     },
     {
       name: "blue",
-      color: "#dab70c"
+      color: "#003399"
     },
     {
       name: "cyan",
-      color: "#A67455"
+      color: "#66cccc"
     }
   ],
 
-	// COLOR_ORDER: "green,red,blue,purple,black,brown,orange,yellow",
+	// COLOR_ORDER: "red,green,blue,purple,black,brown,orange,yellow",
 	//
   // COLOR_SCHEMES: [{
   //     name: "blue",
@@ -74,7 +75,7 @@ app.cfg = {
   //   },
   //   {
   //     name: "green",
-  //     color: "#37921e"
+  //     color: "#fff"
   //   },
   //   {
   //     name: "purple",
@@ -98,22 +99,22 @@ app.cfg = {
   //   }
   // ],
 
-  NUMBERED: true,
+  NUMBERED: false,
   FILTER_BY_EXTENT: false, //When false, bad on iPhone
 
   ICON_SRC: "resources/tpl/viewer/icons/staticIcon/circle.png",
   ICON_SIZE: {
     TINY: {
+      X: 15,
+      Y: 15
+    },
+    MEDIUM: {
       X: 20,
       Y: 20
     },
-    MEDIUM: {
-      X: 25,
-      Y: 25
-    },
     LARGE: {
-      X: 35,
-      Y: 35
+      X: 30,
+      Y: 30
     }
   },
 
