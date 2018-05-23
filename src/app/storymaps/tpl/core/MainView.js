@@ -1555,7 +1555,7 @@ define(["lib-build/css!./MainView",
 				if (graphic != _this.selected) {
 					graphic.symbol.setWidth(_this.lutIconSpecs.tiny.getWidth());
 					graphic.symbol.setHeight(_this.lutIconSpecs.tiny.getHeight());
-					graphic.symbol.setOffset(_this.lutIconSpecs.tiny.getOffsetX(), _this.lutIconSpecs.tiny.getOffsetY());
+					graphic.symbol.setOffset(_this.lutIcons.tiny.getOffsetX(), _this.lutIconSpecs.tiny.getOffsetY());
 					graphic.draw();
 				}
 
@@ -2090,17 +2090,18 @@ define(["lib-build/css!./MainView",
 
 			}
 
-			this.lutIconSpecs= {
-				tiny: new iconSpecs(31,34,6,13),
-				medium: new iconSpecs(34,38,7,15),
-				large: new iconSpecs(44,48,9,20)
-			},
-
+			// Legacy Icons Specs
 			// this.lutIconSpecs= {
-			// 	large: new iconSpecs(30,30,0,0),
-			// 	large: new iconSpecs(30,30,0,0),
-			// 	large: new iconSpecs(30,30,0,0)
+			// 	tiny: new iconSpecs(31,34,6,13),
+			// 	medium: new iconSpecs(34,38,7,15),
+			// 	large: new iconSpecs(44,48,9,20)
 			// },
+
+			this.lutIconSpecs= {
+				tiny: new iconSpecs(app.cfg.ICON_SIZE.TINY.X,app.cfg.ICON_SIZE.TINY.Y,2,2),
+				medium: new iconSpecs(30,30,4,4),
+				large: new iconSpecs(35,35,6,6)
+			},
 
 			this.prepareMobileViewSwitch = function()
 			{
