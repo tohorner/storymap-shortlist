@@ -1290,7 +1290,7 @@ define(["lib-build/css!./MainView",
 				}
 				/*if(app.mapTips)
 					app.mapTips.clean(true);*/
-				var offsetTop = point == _this.selected ? 44 : 33;
+				var offsetTop = point == _this.selected ? 15 : 10;
 				var atts = point.attributes;
 				var name = atts[$.grep(Object.keys(atts), function(n) {return n.toLowerCase() == 'name';})[0]];
 				if(!name)
@@ -1331,7 +1331,7 @@ define(["lib-build/css!./MainView",
 					borderColor: app.cfg.POPUP_BORDER_COLOR,
 					pointerColor: app.cfg.POPUP_ARROW_COLOR,
 					textColor: "#ffffff",
-					offsetTop: 5,
+					offsetTop: 44,
 					topLeftNotAuthorizedArea: [40, 180],
 					mapAuthorizedMinWidth: -1,
 					mapAuthorizedWidth: -1,
@@ -2098,9 +2098,9 @@ define(["lib-build/css!./MainView",
 			// },
 
 			this.lutIconSpecs= {
-				tiny: new iconSpecs(app.cfg.ICON_SIZE.TINY.X,app.cfg.ICON_SIZE.TINY.Y,2,2),
-				medium: new iconSpecs(30,30,4,4),
-				large: new iconSpecs(35,35,6,6)
+				tiny: new iconSpecs(app.cfg.ICON_SIZE.tiny.x, app.cfg.ICON_SIZE.tiny.y, 2, 2),
+				medium: new iconSpecs(app.cfg.ICON_SIZE.medium.x, app.cfg.ICON_SIZE.medium.y,4,4),
+				large: new iconSpecs(app.cfg.ICON_SIZE.large.x,app.cfg.ICON_SIZE.large.y,6,6)
 			},
 
 			this.prepareMobileViewSwitch = function()

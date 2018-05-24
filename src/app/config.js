@@ -63,60 +63,25 @@ app.cfg = {
     }
   ],
 
-	// COLOR_ORDER: "red,green,blue,purple,black,brown,orange,yellow",
-	//
-  // COLOR_SCHEMES: [{
-  //     name: "blue",
-  //     color: "#425dac"
-  //   },
-  //   {
-  //     name: "red",
-  //     color: "#b82323"
-  //   },
-  //   {
-  //     name: "green",
-  //     color: "#fff"
-  //   },
-  //   {
-  //     name: "purple",
-  //     color: "#874094"
-  //   },
-  //   {
-  //     name: "black",
-  //     color: "#000000"
-  //   },
-  //   {
-  //     name: "orange",
-  //     color: "#dc6800"
-  //   },
-  //   {
-  //     name: "yellow",
-  //     color: "#dab70c"
-  //   },
-  //   {
-  //     name: "brown",
-  //     color: "#A67455"
-  //   }
-  // ],
-
   NUMBERED: false,
   FILTER_BY_EXTENT: false, //When false, bad on iPhone
 
   ICON_SRC: "resources/tpl/viewer/icons/staticIcon/circle.png",
   ICON_SIZE: {
-    TINY: {
-      X: 15,
-      Y: 15
+    tiny: {
+      x: 15,
+      y: 15
     },
-    MEDIUM: {
-      X: 20,
-      Y: 20
+    medium: {
+      x: 25,
+      y: 25
     },
-    LARGE: {
-      X: 30,
-      Y: 30
+    large: {
+      x: 35,
+      y: 35
     }
   },
+
 
   // Map popup colors
   POPUP_BACKGROUND_COLOR: "#666666",
@@ -133,6 +98,11 @@ app.cfg = {
 
   TWO_COLUMN_THRESHOLD: 1000,
   THREE_COLUMN_THRESHOLD: 1450,
+
+  MULTITIP:{
+    LARGE: 15,
+    SMALL: 10
+  },
 
   //
   // Layouts
